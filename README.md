@@ -20,3 +20,6 @@ Please note that the `.github` directory and the `README` file (specifically, th
 
 # BREAKING:Deepseek V4.5 Flash Preview just released!
 ![deepseeek](./1786763623934.jpg)
+
+# [CHECK OUT MY SITE!](https://k.asxz.one)
+
