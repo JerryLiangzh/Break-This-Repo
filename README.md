@@ -16,3 +16,7 @@ Please note that the `.github` directory and the `README` file (specifically, th
 ![cat](./cat.jpeg)
 
 ![L9.](./maimai/L9.mp4)
+
+
+# BREAKING:Deepseek V4.5 Flash Preview just released!
+![deepseeek](./1786763623934.jpg)
