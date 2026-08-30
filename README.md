@@ -16,14 +16,14 @@ Please note that the `.github` directory and the `README` file (specifically, th
 
 <div align="center">
 
-# 🐾 Neko n' Yume
+# [🐱 Neko n' Yume](https://github.com/Mizuki-Chou/Neko-n-Yume)
 
 ## 一个属于猫猫的 Minecraft 插件 🌙
 
 **猫猫会睡觉，会冒险，也会偷偷把你的东西吃掉。**
 
 欢迎来到 **Neko n' Yume** ——
-一个以猫猫、幻想与冒险为主题的 Minecraft 生存服务器。
+一个以猫猫、幻想与冒险为主题的 Minecraft 插件。
 
 ---
 
@@ -68,80 +68,6 @@ Please note that the `.github` directory and the `README` file (specifically, th
 </div>
 
 ---
-
-## 🎮 服务器特色
-
-### 🐱 猫猫主题
-
-这里的一切都和猫猫有一点关系。
-
-从服务器名称、道具、称号，到各种隐藏的小彩蛋——
-
-**你可能永远不知道下一只猫会从哪里冒出来。**
-
-### ⚔️ RPG 冒险
-
-探索世界，击败怪物，获得各种特殊装备。
-
-你可以收集：
-
-* ✨ RPG 特殊装备
-* 🗡️ 独特武器
-* 🎁 稀有掉落
-* 🔮 特殊道具
-* 🐾 猫猫相关收藏
-* 🌙 各种隐藏奖励
-
----
-
-## 🎁 掉落 & 抽奖
-
-击败怪物可能获得特殊掉落。
-
-运气好的话……
-
-> **也许下一次掉落就是你一直想要的东西。**
-
-服务器还准备了抽奖系统：
-
-🎰 **概率抽奖**
-
-🎁 **稀有奖励**
-
-✨ **特殊物品**
-
-🐱 **猫猫限定内容**
-
----
-
-## 💰 茂祢币
-
-服务器拥有自己的经济体系。
-
-### 🪙 茂祢币
-
-可以用于购买各种特殊内容，例如：
-
-* 💰 游戏币
-* 🔑 特殊钥匙
-* 🎟️ 称号相关道具
-* 🎁 各种稀有物品
-
----
-
-<div align="center">
-
-# 🌟 为什么是 Neko n' Yume？
-
-因为有些 Minecraft 服务器，
-
-让你来生存。
-
-有些服务器，
-
-让你来战斗。
-
-而 **Neko n' Yume** 希望让你：
 
 # 🐱 来和猫猫一起做梦。
 
