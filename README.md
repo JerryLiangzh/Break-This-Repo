@@ -5,7 +5,9 @@ This repository automatically merges pull requests without conflicts.
 Please note that the `.github` directory is protected.
 
 ---
+## 相关文件
 
+- [喵打猫司令部——本喵娘的一张大字报](./留言与聊天/bigtextnews.md)
 # show you my cat
 
 ![cat](./cat.jpeg)
