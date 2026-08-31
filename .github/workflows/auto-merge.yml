@@ -24,14 +24,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # full history: protected-section diff needs origin/main blobs
+          fetch-depth: 0   # full history: changed-path diff against origin/main needs the branch blobs
 
       - name: Merge open PRs (skipping protected changes)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          MARKER="PROTECTED ZONE ENDS HERE"
           REASON=""
 
           # Paths a PR adds/modifies/deletes/renames. Computed locally from the already-
@@ -58,11 +57,6 @@ jobs:
             CHANGED="$out"
           }
 
-          # Everything in a README blob up to and including the marker line
-          protected_section() {
-            git show "$1" | awk -v m="$MARKER" '{print} index($0,m){exit}'
-          }
-
           # Fetches the PR head into FETCH_HEAD and sets GUARD to one of:
           #   protected     - genuine protected-path violation: label + close (existing behavior)
           #   indeterminate - cannot tell (fetch/diff failure): comment + `check-failed` label,
@@ -86,24 +80,6 @@ jobs:
               REASON="touches the protected \`.github/\` directory"
               GUARD="protected"
               return 0
-            fi
-            if grep -qx 'README.md' <<< "$CHANGED"; then
-              if ! git cat-file -e "FETCH_HEAD:README.md" 2>/dev/null; then
-                REASON="deletes \`README.md\`"
-                GUARD="protected"
-                return 0
-              fi
-              if ! grep -qF "$MARKER" <(git show "FETCH_HEAD:README.md"); then
-                REASON="removes the protection marker from \`README.md\`"
-                GUARD="protected"
-                return 0
-              fi
-              if ! diff <(protected_section "origin/main:README.md") \
-                        <(protected_section "FETCH_HEAD:README.md") >/dev/null; then
-                REASON="modifies the protected section of \`README.md\` (everything above the marker)"
-                GUARD="protected"
-                return 0
-              fi
             fi
             GUARD="ok"
             return 0
@@ -149,7 +125,7 @@ jobs:
               protected)
                 echo "🚫 Skipping: $REASON"
                 if ! grep -qx protected <(gh pr view "$pr" --json labels --jq '.labels[].name'); then
-                  printf '%s\n' "🚫 **Auto-merge skipped: this PR $REASON.**" "" "The \`.github/\` directory and the protected section of \`README.md\` (everything above the \`PROTECTED ZONE ENDS HERE\` marker) are off-limits and cannot be changed via pull requests. Everything below the marker is fair game - fix the PR and it will merge automatically." > /tmp/comment.md
+                  printf '%s\n' "🚫 **Auto-merge skipped: this PR $REASON.**" "" "The \`.github/\` directory is off-limits and cannot be changed via pull requests. Fix the PR and it will merge automatically." > /tmp/comment.md
                   gh pr comment "$pr" --body-file /tmp/comment.md >/dev/null || echo "  (comment failed)"
                   gh pr edit "$pr" --add-label protected >/dev/null || true
                   gh pr close "$pr" >/dev/null || true
