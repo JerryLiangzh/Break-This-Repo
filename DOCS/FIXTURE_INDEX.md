@@ -10,6 +10,8 @@ searching the entire tree.
 | Paths | [case-sensitive pair](./case-sensitivity-lab/UPPER.txt), [Unicode path](./🧪.md), [space in a name](<./SPACE NAME.md>) |
 | Markdown | [nested fences](./NESTED_FENCES.md), [ragged table](./RAGGED_TABLE.md), [footnotes](./FOOTNOTE_FIXTURE.md) |
 | HTML | [details block](./DETAILS_FIXTURE.md), [HTML table](./HTML_TABLE_FIXTURE.md), [empty video](./VIDEO_FIXTURE.md) |
+| Semantic HTML | [keyboard](./KBD_FIXTURE.md), [sample output](./SAMP_FIXTURE.md), [variable](./VAR_FIXTURE.md), [ruby](./RUBY_FIXTURE.md) |
+| Controls | [disabled input](./INPUT_FIXTURE.md), [select](./SELECT_FIXTURE.md), [textarea](./TEXTAREA_FIXTURE.md), [button](./BUTTON_FIXTURE.md) |
 
 Each linked page explains its own intentional failure mode and stays confined
 to repository-local text or markup.
