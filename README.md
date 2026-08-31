@@ -20,3 +20,9 @@ Please note that the `.github` directory is protected.
 ![deepseeek](./1786763623934.jpg)
 
 # [<img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/fca57543-7fa4-4e96-bf0b-e6e432dc8fcc" />](https://k.asxz.one)
+
+# 友链
+
+把你的博客/个人主页放在这里, 这样等这个网站火了, 这些链接都会被 google 索引到, 从而增加权重. 大家一起做大做强!
+
+https://cuwo4.github.io/
