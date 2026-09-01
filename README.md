@@ -35,4 +35,9 @@ https://mochiaochen.github.io/
 
 https://alhsk.top 
 
+> 0w0.red/ne0w0r1d.top/tux.red 站长表示：更格格不入用 EdgeOne 的来了
+
+https://0w0.red
+
+想用 Linux？为什么不打开看看 https://tux.red or https://tux.ne0w0r1d.top ？
 
