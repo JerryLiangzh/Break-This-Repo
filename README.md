@@ -41,3 +41,6 @@ https://0w0.red
 
 想用 Linux？为什么不打开看看 https://tux.red or https://tux.ne0w0r1d.top ？
 
+凑个热闹 https://lililbot.fentropy.dpdns.org
+
+
