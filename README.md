@@ -29,12 +29,4 @@ https://cuwo4.github.io/
 
 https://onion108.github.io/
 
-# mochiaochen
-
-来自 [mochiaochen](https://github.com/MochiaoChen)，路过留个名。
-
-- 博客 / Blog: <https://mochiaochen.github.io>
-- 新增文件夹: [🔐 网络安全](./网络安全/) —— 三篇自带练习的安全短文
-  - [网络安全入门](./网络安全/网络安全入门.md)：该防什么
-  - [自动合并机器人威胁建模](./网络安全/自动合并机器人威胁建模.md)：拿本仓库的 CI 当靶子做了一次威胁建模
-  - [🚩 CTF 小挑战](./网络安全/CTF小挑战.md)：三层套娃，五分钟能解
+https://mochiaochen.github.io/
