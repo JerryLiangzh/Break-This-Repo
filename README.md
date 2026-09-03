@@ -45,4 +45,4 @@ https://0w0.red
 
 > Below is a poor man's website that cannot afford a domain name (actually so does above)
 
-- [MorningMC的神秘小网站](morningmc.qzz.io)
+- [MorningMC的神秘小网站](https://morningmc.qzz.io)
