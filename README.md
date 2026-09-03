@@ -43,6 +43,6 @@ https://0w0.red
 
 凑个热闹（好长啊 https://lililbot.fentropy.dpdns.org
 
+> Below is a poor man's website that cannot afford a domain name (actually so does above)
 
-
-
+- [MorningMC的神秘小网站](morningmc.qzz.io)
