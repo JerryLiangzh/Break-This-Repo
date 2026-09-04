@@ -1,4 +1,4 @@
-## Break This Repository!
+%## Break This Repository!
 
 This repository automatically merges pull requests without conflicts.
 
@@ -46,3 +46,7 @@ https://0w0.red
 > Below is a poor man's website that cannot afford a domain name (actually so does above)
 
 - [MorningMC的神秘小网站](https://morningmc.qzz.io)
+
+- [CarryRao](https://carryrao.top/)
+
+> 好像就我一个格格不入用的是服务器喵，手机改的可能没有很规范喵
